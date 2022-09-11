@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,700;1,800&display=swap");
+@import url('http://fonts.cdnfonts.com/css/infinite-stroke');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-color: #ee2704e5;
+}
+
+header {
+  background: #009334;
+ z-index: 1;
+}
+
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: solid yellow 2px;
+  border-radius: 5%;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  line-height: 2.2rem;
+  margin: 1rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: initial;
+  font-weight: 200;
+  line-height: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0px -5px 10px 0px rgba(100, 241, 6, 0.5)
+}
+
+nav {
+  max-width: 100vw;
+}
+
+section {
+  width: 95%;
+}
+
+footer {
+  width: 100%;
+  height: 60%;
+  background-color: rgb(238, 255, 0);
+}
+
+
+a {
+  font-family: 'Dm Sans', sans-serif;
+}
+
+.video {
+  height: 65vh;
+}
+
+
+@media (min-width: 425px) {
+  header {
+    height: 554px;
+    background: #009334;
+  }
+
+  .logo {
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .RS {
+    display: none;
+  }
+
+  .nav-a:hover {
+    box-shadow: 0px -5px 10px 0px rgba(100, 241, 6, 0.5) } .nav-a:active { box-shadow: 0 0.3em 1em -0.5em #14a73e98
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 0.2rem;
+  }
+
+  .container-footer {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+}
+
+
+
+
+@media (min-width: 1280px) {
+  header {
+    height: 9rem;
+    width: 100%;
+    background: #009334;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    position: relative;
+    bottom: 2.5rem;
+    margin-left: 7.5rem;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 0.2rem;
+    gap: 27px;
+    padding-right: 5.68rem;
+  }
+
+  .banner {
+    display: block;
+    background-image: url("../imagens/rs.jpg");
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+  .fonte{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 3%; 
+    display: flex;
+    color: #fffefe;
+  }
+
+  .RS {
+    font-family: 'Infinite Stroke', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px black;
+    display: block;
+  }
+
+  .container-section {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+  }
+
+
+
+  .video {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .frame {
+    display: flex;
+    max-width: 67.31rem;
+  }
+
+  .container-footer {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+  }
+
+
+}
+
+.nav-a {
+  width: 45.3vw;
+  max-width: 197px;
+  height: 9.1vh;
+  margin-bottom: 1.5rem;
+  background: #009334;
+  color: aliceblue;
+  font-size: 1.5rem;
+  border-radius: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+
+.logo .img {
+  width: 10.3rem;
+  height: 4.688rem;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.3rem;
+  padding: 1.5rem;
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 65vh;
+  background-color: #fffefe;
+  border-radius: 1.9rem;
+  margin-bottom: 2.5rem;
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+ 
+}
+
+.card:hover {
+  transform: translateY(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.frame {
+  border-radius: 1.9rem;
+}
+
+
+
+.footer-nav-git {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-image: url('../imagens/github.png');
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.footer-nav-linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-image: url('../imagens/linkedin.png');
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.git {
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  font-weight: 400;
+  position: relative;
+  top: 70%;
+  text-decoration: none;
+  color: black;
+}
+
+.linkedin {
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  font-weight: 400;
+  position: relative;
+  top: 70%;
+  text-decoration: none;
+  color: black;
+}
